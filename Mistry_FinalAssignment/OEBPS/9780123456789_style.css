@@ -1,0 +1,176 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark,     
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*font styles*/
+
+ol {
+    font-family:'Bagnard';
+    list-style-type:none;
+    text-align: center;
+}
+
+li {
+    font-family:'Bagnard';
+}
+
+ol.van {
+    list-style-type: none;
+}
+
+
+/*body styles*/
+
+
+h1 {
+   font-family:'Russeldexter-DOL9W';
+   text-align: center;
+   font-size: 3em;
+   padding-top: 3em;
+}
+
+h1.title {
+    font-family: 'Russeldexter-DOL9W';
+    text-align: center;
+    font-size: 4em;
+    padding-top: 3em;
+}
+
+h2 {	
+   font-family:'PettingillCF-Bold';
+   text-align: center;
+   font-size:1.75em;
+   margin-bottom: 1.5em;
+}
+h3 {	
+   font-family:'PettingillCF-Bold';
+   text-align: center;
+   font-size:1.5em;
+   margin-bottom: 1.5em;
+}
+
+h5 {
+    font-family:'PettingillCF-Bold';
+    text-indent:1.40em;
+    text-align:center;
+
+}
+
+p {
+    font-family:'Bagnard';
+    text-indent:1em;
+    text-align:justify;
+
+}
+p.nonindent {
+    font-family:'Bagnard';
+    text-indent:0em;
+    text-align:justify;
+}
+
+aside {
+    font-family: 'BluuNext-Bold';
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    font-size: .5em
+    text-align: left;
+}
+
+i {
+	font-family:'BluuNext-Bolditalic';
+}
+
+.poem {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left
+}
+.poem .stanza {
+    margin: 1em 0 1em 0
+}
+.poem p {
+    display: block;
+    margin: 0;
+    padding-left: 3em;
+    text-indent: -3em
+}
+.poem .i2 {
+    display: block;
+    margin-left: 1em
+}
+.poem .i4 {
+    display: block;
+    margin-left: 2em
+}
+.poem .i6 {
+    display: block;
+    margin-left: 3em
+}
+.poem .i16 {
+    display: block;
+    margin-left: 8em
+}
+
+.poem {
+    font-family: 'BluuNext-Bold';
+}
+
+/*image styles*/
+
+div.image {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.cover {
+	text-align:center;
+	page-break-inside:avoid;
+}
+
+
+/*fonts*/
+
+@font-face {
+    font-family: 'Bagnard';
+    src:url(fonts/Bagnard.otf);
+}
+
+@font-face {
+    font-family: 'BluuNext-Bolditalic';
+    src:url(fonts/BluuNext-Bolditalic.otf);
+}
+
+@font-face {
+    font-family: 'BluuNext-Bold';
+    src:url(fonts/BluuNext-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Russeldexter-DOL9W';
+    src:url(fonts/Russeldexter-DOL9W.otf);
+}
+
+@font-face {
+    font-family: 'PettingillCF-Bold';
+    src:url(fonts/PettingillCF-Bold.otf);
+}
