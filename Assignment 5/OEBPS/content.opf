@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="bookid">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>Science in the Kitchen</dc:title>
+		<dc:identifier id="bookid">9781234567890</dc:identifier>
+		<dc:creator id="creator">Mrs. E.E. Kellogg</dc:creator>
+		<dc:language>en</dc:language>
+		<meta property="dcterms:modified">2020-11-20T12:00:00Z</meta>
+		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
+		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityHazard">none</meta>
+		<meta property="schema:accessibilitySummary">This publication has no violations in the ACE by Daisy App. The title page includes an image, and alternative text has been provided, so readers unable to interact with it will not be at a disadvantage.</meta>
+		<meta property="schema:accessibilityFeature">alternativeText</meta>
+		<meta property="schema:accessibilityAPI">ARIA</meta>
+	</metadata>
+
+	<manifest>
+		<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="ncx" href="ncx.ncx" media-type="application/x-dtbncx+xml"/>
+		<item id="preface" href="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter_1" href="chapter_1.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter_2" href="chapter_2.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter_3" href="chapter_3.xhtml" media-type="application/xhtml+xml"/>
+		<item id="chapter_4" href="chapter_4.xhtml" media-type="application/xhtml+xml"/>
+		<item id="cover_illustration" href="Images/cover_illustration.jpg" media-type="image/jpeg"/>
+		<item id="cover_page" href="Images/cover_page.jpg" media-type="image/jpeg"/>
+		<item id="style3" href="style3.css" media-type="text/css"/>
+		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+	</manifest>
+
+	<spine toc="ncx">
+		<itemref idref="nav" linear="yes"/>
+		<itemref idref="cover" linear="yes"/>
+		<itemref idref="preface" linear="yes"/>
+		<itemref idref="chapter_1" linear="yes"/>
+		<itemref idref="chapter_2" linear="yes"/>
+		<itemref idref="chapter_3" linear="yes"/>
+		<itemref idref="chapter_4" linear="yes"/>
+	</spine>
+
+	<guide>
+		<reference type="start" title="Start" href="cover.xhtml"/>
+		<reference type="nav" title="Nav" href="nav.xhtml"/>
+		<reference type="cover" title="cover" href="cover.xhtml"/>
+		<reference type="text" href="preface.xhtml"/>
+	</guide>
+</package>

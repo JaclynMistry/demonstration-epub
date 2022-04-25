@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xml:lang="en-US" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+	<head>
+		<meta name="dtb:uid" content="9781234567890"/>
+		<meta name="dtb:depth" content="2"/>
+		<meta name="dtb:totalPageCount" content="0"/>
+		<meta name="dtb:maxPageNumber" content="0"/>
+	</head>
+	<docTitle><text>Science in the Kitchen</text></docTitle>
+	<docAuthor><text>Mrs. E. E. Kellogg, A.M.</text></docAuthor>
+
+	<navMap>
+		<navPoint class="cover" id="cover" playOrder="1">
+			<navLabel><text>Cover</text></navLabel>
+			<content src="cover.xhtml"/>
+		</navPoint>
+
+		<navPoint class="other" id="nav" playOrder="2">
+			<navLabel><text>Contents</text></navLabel>
+			<content src="nav.xhtml"/>
+		</navPoint>
+
+		<navPoint class="other" id="preface" playOrder="3">
+			<navLabel><text>Preface</text></navLabel>
+			<content src="preface.xhtml"/>
+		</navPoint>
+
+		<navPoint class="other" id="chapter_1" playOrder="4">
+			<navLabel><text>Foods</text></navLabel>
+			<content src="chapter_1.xhtml"/>
+		</navPoint>
+
+		<navPoint class="other" id="chapter_2" playOrder="5">
+			<navLabel><text>Cookery</text></navLabel>
+			<content src="chapter_2.xhtml"/>
+		</navPoint>
+
+		<navPoint class="other" id="chapter_3" playOrder="6">
+			<navLabel><text>The Principles of Scientific Cookery</text></navLabel>
+			<content src="chapter_3.xhtml"/>
+		</navPoint>
+		
+		<navPoint class="other" id="chapter_4" playOrder="7">
+			<navLabel><text>Cereals and Their Preparation for the Table</text></navLabel>
+			<content src="chapter_4.xhtml"/>
+		</navPoint>
+	</navMap>
+</ncx>

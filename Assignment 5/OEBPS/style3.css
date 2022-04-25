@@ -1,0 +1,13 @@
+body {margin: auto; width: 75%}
+body {font-family: Helvetica, Arial; font-style: normal;}
+h1 {text-align: center;}
+h1 {color: #D50842;}
+p.subtitle {text-align: center;}
+table {width:75%; border-collapse: collapse; margin: auto;}
+table, th, td {border: 1px solid black;}
+th {height: 30px;}
+tr:nth-child(even){background-color: #f2f2f2;}
+.blank {text-align: center;}
+div.center-image {text-align: center;}
+ol.landmarks {visibility: hidden;}
+.test {color: green;}
